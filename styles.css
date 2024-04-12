@@ -1,10 +1,61 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+h1{
+    font-size: 50px;
+    color: goldenrod;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+div.projects{
+    border: 1px solid #ccc;
+}
+
+div.projects:hover{
+    border: 1px solid #777;
+}
+
+div.projects img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: #5a5a5a;
+}
+
+.my-projects{
+    padding: 0 6px;
+    float: left;
+    width: 33%;
+}
+
+#description{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 nav{
     background-color: rgb(255, 255, 255);
     box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
@@ -27,6 +78,7 @@ nav a{
     display: flex;
     align-items: center;
     color: black;
+    font-size: 20px;
 }
 nav a:hover{
     background-color: #f0f0f0;
@@ -71,5 +123,17 @@ nav li:first-child{
 @media(max-width: 400px){
     .sidebar{
         width: 100%;
+    }
+}
+@media only screen and (max-width: 700px){
+    .my-projects{
+        width: 49.9999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .my-projects {
+      width: 100%;
     }
 }

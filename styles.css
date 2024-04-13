@@ -20,7 +20,27 @@ h2{
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+}
+
+div.university{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+div.degree{
+    font-size:20px;
+    color: goldenrod;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+div.time{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
 
 div.projects{
@@ -48,6 +68,7 @@ div.desc {
     float: left;
     width: 33%;
 }
+
 
 #description{
     text-align: center;

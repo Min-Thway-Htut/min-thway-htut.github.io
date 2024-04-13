@@ -10,8 +10,8 @@
         <nav>
             <ul class="sidebar">
                 <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                <li><a href="">About Me</a></li>
-                <li><a href="">Projects</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#myProjects">Projects</a></li>
                 <li><a href="">Skills</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
@@ -19,7 +19,7 @@
             <ul>
                 <li><a href="">Min Thway Htut</a></li>
                 <li class="hideOnMobile"><a href="#about-me">About Me</a></li>
-                <li class="hideOnMobile"><a href="">Projects</a></li>
+                <li class="hideOnMobile"><a href="#myProjects">Projects</a></li>
                 <li class="hideOnMobile"><a href="">Skills</a></li>
                 <li class="hideOnMobile"><a href="">Contact</a></li>
                 <li onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
@@ -34,7 +34,16 @@
                  learning and growth in my journey.</p>
         </div>
 
-        <h2>My Projects</h2>
+        <h2>Education</h2>
+            <div class="university">GISMA University of Applied Sciences (Potsdam, Germany)</div>
+        <div class="degree">BSc Computer Science</div>
+        <div class="time">September 2022 - Now</div>
+
+        <div class="university">Family Private High School (Mahlaing, Myanmar)</div>
+        <div class="degree">Pre-Matriculation & Matriculation</div>
+        <div class="time">May 2018 - March 2020</div>
+
+        <h2 id="myProjects">My Projects</h2>
         <div class="my-projects">
             <div class="projects">
                 <a target="_blank" href="https://github.com/Min-Thway-Htut/min-thway-htut.github.io">
@@ -61,6 +70,8 @@
                 <div class="desc">Health Fit</div>
             </div>
         </div>
+
+
 
         <script>
             function showSidebar(){

@@ -30,6 +30,21 @@ div.university{
     margin-left: 20px;
 }
 
+div.skill-title{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: rgb(219, 110, 0);
+}
+
+div.skill{
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
 div.degree{
     font-size:20px;
     color: goldenrod;
@@ -132,6 +147,11 @@ nav li:first-child{
 }
 .menu-button{
     display: none;
+}
+.skill ul{
+    list-style-type: none;
+    column-count: 3;
+    column-gap: 20px;
 }
 @media(max-width: 800px){
     .hideOnMobile{

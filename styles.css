@@ -150,7 +150,7 @@ nav li:first-child{
 }
 .skill ul{
     list-style-type: none;
-    column-count: 3;
+    column-count: 2;
 }
 
 .contactUs{

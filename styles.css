@@ -118,6 +118,7 @@ nav a{
 }
 nav a:hover{
     color: goldenrod;
+    background-color: rgb(38, 38, 38);
 }
 
 nav li:first-child{

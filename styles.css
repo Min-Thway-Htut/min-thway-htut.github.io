@@ -59,11 +59,11 @@ div.time{
 }
 
 div.projects{
-    border: 1px solid #ccc;
+    border: 2px solid #000000;
 }
 
 div.projects:hover{
-    border: 1px solid #777;
+    border: 2px solid #777;
 }
 
 div.projects img{
@@ -74,8 +74,8 @@ div.projects img{
 div.desc {
     padding: 15px;
     text-align: center;
-    color: white;
-    background-color: #5a5a5a;
+    color: rgb(0, 0, 0);
+    background-color: #b49c25;
 }
 
 .my-projects{
@@ -117,8 +117,8 @@ nav a{
     font-size: 20px;
 }
 nav a:hover{
-    color: goldenrod;
-    background-color: rgb(38, 38, 38);
+    color:#daa520;
+    text-decoration: underline;
 }
 
 nav li:first-child{
@@ -223,11 +223,22 @@ button{
     text-align: center;
     color: #ffffff;
 }
-button.hover{
+button:hover{
     background-color: #6c6c6c;
 }
 .contact-info{
     text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links{
+    list-style-type: none;
+}
+.social-links p{
+    text-decoration: none;
+    color: inherit;
 }
 .contact-info h3{
     font-size: 24px;
@@ -242,7 +253,6 @@ button.hover{
     color: #4caf50;
     margin-right: 10px;
 }
-
 
 
 h2.clear{

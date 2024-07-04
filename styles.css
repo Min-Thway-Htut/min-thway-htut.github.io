@@ -259,6 +259,9 @@ h2.clear{
     clear: both;
 }
 
+
+
+
 @media(max-width: 800px){
     .hideOnMobile{
         display: none;

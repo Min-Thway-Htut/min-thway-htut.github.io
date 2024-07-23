@@ -314,6 +314,16 @@ button{
     margin-top: 20px;
 }
 
+.contact-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact-info a:hover{
+    text-decoration: none;
+    color: red;
+}
+
 .footer{
     background-color: black;
     padding-top: 15px;
@@ -360,8 +370,6 @@ h2.clear{
 }
 
 
-
-
 @media(max-width: 800px){
     .hideOnMobile{
         display: none;
@@ -396,3 +404,4 @@ h2.clear{
         grid-template-columns: 1fr;
     }
 }
+

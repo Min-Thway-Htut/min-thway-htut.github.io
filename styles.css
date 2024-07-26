@@ -355,6 +355,15 @@ button{
     margin-top: 20px;
 }
 
+#project-button a{
+    text-decoration: none;
+    color: white
+}
+
+#project-button a:hover{
+    color: red;
+}
+
 .contact-info a{
     text-decoration: none;
     color: black;

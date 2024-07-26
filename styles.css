@@ -193,9 +193,10 @@ div.desc {
     display: inline-block;
     width: 30%;
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #303030;
+    margin-left: 30px;
+    margin-bottom: 15px;
     border-radius: 8px;
-    margin: 10px;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -407,6 +408,15 @@ h2.clear{
     clear: both;
 }
 
+@media(max-width: 800px){
+    .project-card{
+        display: inline-block;
+        width: 95%;
+        margin-left: 15px;
+        margin-right: 18px;
+        border: 1px solid #303030;
+    }
+}
 
 @media(max-width: 800px){
     .hideOnMobile{

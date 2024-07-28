@@ -422,9 +422,9 @@ h2.clear{
 @media(max-width: 800px){
     .project-card{
         display: inline-block;
-        width: 95%;
-        margin-left: 15px;
-        margin-right: 18px;
+        width: 90%;
+        margin-left: none;
+        margin-right: none;
         border: 1px solid #303030;
     }
 }

@@ -38,7 +38,7 @@
                 I have experiences in front-end development and have already developed a couple of real-life projects as a freelance developer.
                 <br>
                 <br>
-                I am currently learning front-end libraries such as BootStrap and React.js while working on my own projects as I believe in project-based learing.
+                I am currently learning AI and Machine Learning and front-end libraries such as BootStrap and React.js while working on my own projects as I believe in project-based learing.
                 In addition, I am eager to participate in Hackathon events. 
             </p>
         </div>
@@ -164,30 +164,6 @@
                     </form>
                 </div>
 
-                <script>
-                    document.getElementById('contactForm').addEventListener('submit', function(event) {
-                      event.preventDefault();
-                  
-                      const name = document.getElementById('name').value;
-                      const email = document.getElementById('email').value;
-                      const message = document.getElementById('message').value;
-                  
-                      fetch('http://localhost:3000/contact', {
-                        method: 'POST',
-                        headers: {
-                          'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({ name, email, message })
-                      })
-                      .then(response => response.text())
-                      .then(data => {
-                        alert('Success: ' + data);
-                      })
-                      .catch(error => {
-                        console.error('Error:', error);
-                      });
-                    });
-                  </script>
 
                 <div class="contact-info">
                     <h3>Contact Information</h3>
@@ -204,7 +180,7 @@
     <footer class="footer">
         <p>@minthwayhtut 2024 | All rights reserved</p>
         <p id="developer">Developed by Min Thway Htut</p>
-        <p id="last-update">Last updated on 20.08.2024</p>
+        <p id="last-update">Last updated on 21.08.2024</p>
     </footer>  
 
     <script src="script.js"></script>

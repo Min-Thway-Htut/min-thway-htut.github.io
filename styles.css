@@ -247,9 +247,10 @@ nav a{
     color: #ffffff;
     font-size: 20px;
 }
+
 nav a:hover{
-    color:#daa520;
-    text-decoration: underline;
+    color: #daa520;
+    transform: translateY(-5px);
 }
 
 nav li:first-child{

@@ -450,6 +450,21 @@ h2.clear{
     }
 }
 
+.slide-in-left{
+    position: relative;
+    animation: slideInLeft 2s ease-out;
+}
+
+@keyframes slideInLeft{
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 @media(max-width: 800px){
     .project-card{
         display: inline-block;

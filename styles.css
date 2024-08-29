@@ -433,6 +433,23 @@ h2.clear{
     clear: both;
 }
 
+
+.slide-in-bottom {
+    position: relative;
+    animation: slideInBottom 2s ease-out;
+}
+
+@keyframes slideInBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 @media(max-width: 800px){
     .project-card{
         display: inline-block;
@@ -477,4 +494,3 @@ h2.clear{
         grid-template-columns: 1fr;
     }
 }
-

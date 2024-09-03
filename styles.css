@@ -150,6 +150,28 @@ div.desc {
     color: #1b3b35;
   }
 
+  .awards{
+    display: flex;
+    align-items: center;
+  }
+
+  .awards i{
+    color: #f1e6c5;
+    font-size: 24px; /* Adjust the size of the icon */
+    margin-left: 15px;
+  }
+
+  .award-title{
+    font-size: 25px;
+    color: #f1e6c5;
+  }
+
+  .award-description{
+    font-size: 15px;
+    color: #a89e75;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
   
   /* Number text (1/3 etc) */
   .numbertext {
@@ -468,6 +490,17 @@ h2.clear{
     to {
         transform: translateX(0);
         opacity: 1;
+    }
+}
+
+@media(max-width: 800px){
+    .awards{
+        margin-bottom: 18px;
+        margin-left: 13px;
+    }
+    .award-description{
+        margin-left: 27px;
+        margin-right: 18px;
     }
 }
 @media(max-width: 800px){

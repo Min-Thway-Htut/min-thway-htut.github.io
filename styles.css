@@ -43,12 +43,12 @@ div.skill-title{
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
-    color: #f1e6c5;
+    color: #1b3b35;
 }
 
 div.skill{
     font-size: 20px;
-    color: #a89e75;
+    color: #1b3b35;
     margin-top: 10px;
     margin-left: 20px;
 }
@@ -158,6 +158,17 @@ div.desc {
     margin-right: 16px;
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+
+  .skill-border{
+    border: 1px solid #a89e75;
+    background-color: #a89e75;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 10px;
+    padding-bottom: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   .awards-border{
     border: 1px solid #a89e75;

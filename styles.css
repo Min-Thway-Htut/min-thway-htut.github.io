@@ -51,7 +51,6 @@ div.skill{
     color: #a89e75;
     margin-top: 10px;
     margin-left: 20px;
-    margin-bottom: 10px;
 }
 
 div.degree{
@@ -331,6 +330,8 @@ nav li:first-child{
 @media (max-width: 1100px){
    .certifications{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
    }
    #description-certificate{
     margin-top: 5px;
@@ -338,6 +339,7 @@ nav li:first-child{
     font-size: 14px;
    }
 }
+
 .article-section-description{
     color: #f1e6c5;
     margin-left: 25px;

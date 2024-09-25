@@ -530,7 +530,7 @@ button{
 }
 
 .footer{
-    background-color: #121212;
+    background-color: #212121;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -548,6 +548,50 @@ button:hover{
     margin: 0;
 }
 
+.certificate{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.my-certificate{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.my-certificate:hover{
+    transform: scale(1.05);
+}
+
+.my-certificate img{
+    width:100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#view-certificates{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .certificate{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 480px){
+    .certificate{
+        grid-template-columns: 1fr;
+    }
+    .my-certificate{
+        margin-right: 15px;
+    }
+}
 .social-links{
     list-style-type: none;
 }

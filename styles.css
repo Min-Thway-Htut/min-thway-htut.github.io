@@ -42,7 +42,7 @@ div.skill-title{
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 24px;
     color: #212121;
 }
 
@@ -490,6 +490,11 @@ button{
     cursor: pointer;
 }
 
+#skill-icon{
+    width: 50px;
+    height: 70px; 
+    margin: 10px;
+}
 
 #project-button{
     display: block;

@@ -153,13 +153,14 @@ div.desc {
   #last-update{
     font-size: 12px;
     color: #f5f5f5;
+    margin-top: 10px;
   }
 
   
 
   .awards-border{
-    border: 1px solid #a89e75;
-    background-color: #f5f5f5;
+    border: 2px solid #121212;
+    background-color: #c6c6c6;
     border-radius: 10px;
     margin-left: 16px;
     margin-right: 16px;
@@ -288,7 +289,7 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: #ffea00;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -435,7 +436,7 @@ nav li:first-child{
 
 .contactUs{
     min-height: 100vh;
-    background-color: #A8DADC;
+    background-color: #fff;
     padding: 50px;
     text-align: center;
 }
@@ -488,8 +489,8 @@ textarea:focus{
 button{
     display: inline-block;
     padding: 12px 24px;
-    background-color: #f5f5f5;
-    color: #212121;
+    background-color: #121212;
+    color: #fff;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -514,7 +515,7 @@ button{
 
 #project-button a{
     text-decoration: none;
-    color: #212121;
+    color: #fff;
 }
 
 #project-button a:hover{

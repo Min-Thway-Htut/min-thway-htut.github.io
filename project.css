@@ -8,14 +8,14 @@
 }
 
 :root {
-  --dark-grey: #0a0a23;
+  --dark-grey: hsl(240, 56%, 9%);
   --light-grey: #f5f6f7;
   --white: #ffffff;
   --black: #000;
 }
 
 body {
-  background-color: #a8dadc;
+  background-color: #fff;
   text-align: center;
   padding: 10px;
 }
@@ -51,11 +51,12 @@ footer {
 }
 
 .player-card {
-  background-color: var(--light-grey);
+  background-color: #cfcfcf;
   padding: 1.3rem;
   margin: 1.2rem;
   width: 300px;
   border-radius: 15px;
+  border: solid 1px #121212;
 }
 .player-card img{
   width: 100%;

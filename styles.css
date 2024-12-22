@@ -32,8 +32,73 @@ h2{
     font-optical-sizing: auto;
     font-size: 40px;
     color: #121212;
+    font-weight: 500;
 }
 
+.newIntroSection{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    
+    @media (max-width: 800px) {
+        display: block;
+    }
+    
+}
+#first-line{
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+}
+#my-name{
+    font-size: 60px;
+    font-weight: 600;
+    @media(max-width: 800px){
+        font-size: 40px;
+        text-align: center;
+    }
+}
+#who-am-i{
+    text-align: center;
+    font-size: 45px;
+    @media(max-width: 800px){
+        font-size: 35px;
+    }
+}
+.intro-profile{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 100px;
+    @media(max-width: 900px){
+        margin: auto;
+    }
+}
+.intro-profile img{
+    width: 400px;
+    border-radius: 50%;
+    border-style: double;
+    border-width: 4px;
+    border-color: #e89211;
+    @media (max-width: 900px){
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+}
+.intro-bio{
+    margin-left: 100px;
+    @media (max-width: 900px){
+        margin: auto;
+    }
+}
+#description{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
 div.university{
     font-size: 25px;
     margin-top: 10px;

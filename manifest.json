@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "Min Thway Htut's Portfolio",
+    "short_name": "Min Thway Htut's Portfolio",
+    "description": "Min Thway Htut's Personal Portfolio Website",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/images/m-icon.png",
+            "sizes": "512x512"
+        }
+    ]
+}

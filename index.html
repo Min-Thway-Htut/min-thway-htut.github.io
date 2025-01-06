@@ -10,6 +10,7 @@
         <link rel="icon" type="image/x-icon" href="images/m-icon.png"/>
         <link rel="stylesheet" href="styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="manifest" href="/manifest.json">
 </head>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     </head>
@@ -261,11 +262,17 @@
     </section>
 
     <script src="script.js"></script>
+
+    <script>
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js', { scope: '/' });
+        }
+        </script>
     </body>
 
     <footer class="footer">
         <p>&copy; minthwayhtut 2025 | Developed by Min Thway Htut</p>
-        <p id="last-update">Last updated on 04.01.2025</p>
+        <p id="last-update">Last updated on 06.01.2025</p>
     </footer>  
 
 </html>

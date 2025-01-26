@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Fontdiner+Swanky&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -93,6 +96,27 @@ h2{
     @media (max-width: 900px){
         margin: auto;
     }
+}
+.cv{
+    margin-top: 50px;
+    text-align: center;
+    @media (max-width: 900px){
+        margin-top: 10px;
+    }
+}
+.cv a:hover{
+    background-color: #3c3232;
+}
+
+.cv a{
+    text-decoration: none;
+    background-color: #121212;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+.cv i{
+    margin-right: 5px;
 }
 #description{
     font-size: 15px;

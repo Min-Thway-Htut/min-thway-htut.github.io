@@ -590,6 +590,7 @@ button{
     height: 70px; 
     margin: 10px;
     transition: transform 0.3s ease;
+   
 }
 #skill-icon:hover{
     transform: scale(1.5);
@@ -748,8 +749,9 @@ h2.clear{
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 800px;
+    width: 600px;
     height: 300px;
+    border-radius: 10px;
 }
 .second-article-title{
     font-size: 35px;
@@ -832,6 +834,15 @@ h2.clear{
 @media(max-width: 600px){
     .article-container img{
         width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 900px){
+    .article-container img{
+        width: 500px;
         display: block;
         margin-left: auto;
         margin-right: auto;
